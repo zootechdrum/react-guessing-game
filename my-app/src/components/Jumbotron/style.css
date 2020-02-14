@@ -1,8 +1,6 @@
 .jumbotron {
-    background-image: url("../../images/pokemon-ban.png");
-    background-size: auto 100%;;
-    background-position: center center;
-    height:300px;
+    margin-top:90px;
+    padding-bottom: 30px;
 
 
 }

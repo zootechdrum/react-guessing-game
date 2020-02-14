@@ -4,7 +4,7 @@ import Logo from "../../images/pokeball.png"
 
 function Navbar() {
     return (
-        <nav className="navbar">
+        <nav className="navbar fixed-top">
             <img className = "logo" src = {Logo} alt="pokeboll" />
 
         </nav>
