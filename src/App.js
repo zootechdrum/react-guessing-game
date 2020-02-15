@@ -26,8 +26,7 @@ function App() {
             />
         </div>
           ))}
-
-        </div>
+      </div>
 
         </Wrapper>
       </div>
