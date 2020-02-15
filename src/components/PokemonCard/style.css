@@ -1,11 +1,24 @@
 .pokemon-image {
     height:100px;
     width:100px;
-}
 
+}
+.card{
+    cursor: pointer;
+}
 .poke-card {
     padding-top:20px;
     margin-top: 15px;
+    transition: .3s;
+
+}
+
+.poke-card:hover{
+    transform:translateY(-5px);  
+}
+
+.poke-card:active{
+    transform:translateY(-1px); 
 }
 
 .pokeCard-type-desc {

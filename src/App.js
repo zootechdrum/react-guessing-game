@@ -6,7 +6,12 @@ import pokemon from "./pokemon.json";
 import PokemonCard from "./components/PokemonCard"
 import './App.css';
 
-function App() {
+class App extends Component {
+  state = {
+    pokeChosen: []
+  };
+  
+    render() {
   return (
     <div>
       <Navbar />
@@ -30,7 +35,7 @@ function App() {
 
         </Wrapper>
       </div>
-  )
+  )}
 };
     
     
