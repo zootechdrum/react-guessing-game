@@ -2,11 +2,11 @@
     {
       "id": 1,
       "name": "Pikachu",
-      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG121.png",
+      "image": "./images/pokemon.jpg",
       "type": "Electric",
       "weakness": "Ground"
     },
-    {
+        {
         "id": 2,
         "name": "Piplup",
         "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
