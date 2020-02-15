@@ -12,16 +12,23 @@ function App() {
       <Navbar />
       <Jumbotron />
       <Wrapper >
-        {pokemon.map(pokemon => (
-          <PokemonCard
-            id={pokemon.id}
-            key={pokemon.id}
-            name={pokemon.name}
-            image={pokemon.image}
-            type={pokemon.type}
-            weakness={pokemon.weakness}
-          />
-        ))}
+      <div class="row">
+            {pokemon.map(pokemon => (
+
+        <div class="col-3">
+            <PokemonCard
+              id={pokemon.id}
+              key={pokemon.id}
+              name={pokemon.name}
+              image={pokemon.image}
+              type={pokemon.type}
+              weakness={pokemon.weakness}
+            />
+                </div>
+          ))}
+
+        </div>
+
         </Wrapper>
       </div>
   )

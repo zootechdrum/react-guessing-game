@@ -1,10 +1,15 @@
 import React from "react";
 import "./style.css";
 
-function PokemonCard({name}) {
+function PokemonCard({name, image}) {
     return (
+        <div>
+            <h5 class="card-title">{name}</h5>
+                <div>
+                    <img className= "pokemon-image" src = {image} alt = {name} />
+                </div>    
+        </div>
 
-                <h5 class="card-title">{name}</h5>
 
     );
 }
