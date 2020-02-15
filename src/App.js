@@ -10,6 +10,8 @@ class App extends Component {
   state = {
     pokeChosen: []
   };
+
+
   
     render() {
   return (
@@ -22,6 +24,7 @@ class App extends Component {
 
         <div class="col-3">
             <PokemonCard
+              onClick={this.savePoke}
               id={pokemon.id}
               key={pokemon.id}
               name={pokemon.name}
