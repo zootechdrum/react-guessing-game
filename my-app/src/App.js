@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
+import Wrapper from "./components/Wrapper";
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
     <Navbar />
     <Jumbotron />
+    <Wrapper />
 
     </div>
   );
