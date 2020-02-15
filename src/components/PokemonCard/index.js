@@ -9,8 +9,15 @@ function PokemonCard({name, image, type, weakness}) {
                 </div>    
                 <h5 class="card-title">{name}</h5>
                 <div class="d-flex justify-content-around">
-                    <p>Type: {type}</p>
-                    <p>Weakness: {weakness}</p>
+                    <div>
+                        <h6 className="title-type">Type:</h6>    
+                        <p className="pokeCard-type-desc">{type}</p>                   
+                    </div>
+                    <div>
+                        <h6 className="title-weakness">Weakness:</h6>
+                        <p>{weakness}</p>
+                    </div>
+
                 </div>
         </div>
 

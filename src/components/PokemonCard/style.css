@@ -7,3 +7,21 @@
     padding-top:20px;
     margin-top: 15px;
 }
+
+.pokeCard-type-desc {
+    display:inline-block;
+    height:10px;
+
+}
+
+.title-type{
+    background-color:#64e764;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.title-weakness{
+    background-color: #ee90ee;
+    padding:5px;
+    border-radius: 5px;
+}
