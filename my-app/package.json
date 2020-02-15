@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -32,24 +31,4 @@
       "last 1 safari version"
     ]
   }
-=======
-  "name": "react-guessing-game",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zootechdrum/react-guessing-game.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zootechdrum/react-guessing-game/issues"
-  },
-  "homepage": "https://github.com/zootechdrum/react-guessing-game#readme"
->>>>>>> 2c2f85260e8cc0083ae529a16dadf4eb9e6a42d4
 }

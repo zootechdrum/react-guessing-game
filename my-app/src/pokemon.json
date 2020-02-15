@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG148.png",
+      "type": "Electric",
+      "weakness": "Ground"
+    },
+        {
+        "id": 2,
+        "name": "Piplup",
+        "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG141.png",
+        "type": "Water",
+        "weakness": "Electric"
+      },
+      {
+        "id": 3,
+        "name": "Eeve",
+        "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG132.png",
+        "type": "Normal",
+        "weakness": "Fighting"
+      },
+    {
+      "id": 4,
+      "name": "Bulbasaur",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG122.png",
+      "type": "Grass",
+      "weakness": "Fire"
+    },
+    {
+      "id": 5,
+      "name": "Psyduck",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG110.png",
+      "type": "Water",
+      "weakness": "Electric"
+    },
+    {
+      "id": 6,
+      "name": "Charmander",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG96.png",
+      "type": "Fire",
+      "weakness": "Ground"
+    },
+    {
+      "id": 7,
+      "name": "Snorlax",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG77.png",
+      "type": "Normal",
+      "weakness": "Fighting"
+    },
+    {
+      "id": 8,
+      "name": "Charizard",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG4.png",
+      "type": "Fire",
+      "weakness": "Rock"
+    },
+    {
+      "id": 9,
+      "name": "Vulpix",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG20.png",
+      "type": "Fire",
+      "weakness": "Ground"
+    },
+    {
+      "id": 10,
+      "name": "Ivysaur",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG138.png",
+      "type": "Grass",
+      "weakness": "Fire"
+    },
+    {
+      "id": 11,
+      "name": "Cyndaquil",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG97.png",
+      "type": "Fire",
+      "weakness": "Ground"
+    },
+    {
+      "id": 12,
+      "name": "Totodile",
+      "image": "http://pngimg.com/uploads/pokemon/pokemon_PNG106.png",
+      "type": "Water",
+      "weakness": "Electric"
+    }
+  ]
+  
