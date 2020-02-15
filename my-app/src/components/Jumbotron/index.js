@@ -5,7 +5,7 @@ import "./style.css";
 function Jumbotron() {
   return (
     <div className="jumbotron text-center">
-    <img src = {Pokemon} alt="pokemon" />
+      <img src = {Pokemon} alt="pokemon" />
 
     </div>
   );
