@@ -11,6 +11,10 @@ class App extends Component {
     pokeChosen: []
   };
 
+  savePoke = event => {
+    console.log("Hello")
+  };
+
 
   
     render() {
