@@ -24,7 +24,7 @@ function App() {
               type={pokemon.type}
               weakness={pokemon.weakness}
             />
-                </div>
+        </div>
           ))}
 
         </div>
