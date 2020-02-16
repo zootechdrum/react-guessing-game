@@ -1,6 +1,7 @@
 
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Jumbotron from "./components/Jumbotron";
 import Wrapper from "./components/Wrapper";
 import pokemon from "./pokemon.json";
@@ -18,10 +19,12 @@ class App extends Component {
       let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
   
       // swap elements array[i] and array[j]
-      // we use "destructuring assignment" syntax to achieve that
+      // Use "destructuring assignment" syntax to achieve that
       // you'll find more details about that syntax in later chapters
       // same can be written as:
       // let t = array[i]; array[i] = array[j]; array[j] = t
+
+      //courtesy of https://javascript.info/task/shuffle
       [array[i], array[j]] = [array[j], array[i]];
     }   
   }
@@ -56,7 +59,9 @@ class App extends Component {
           ))}
       </div>
 
+
         </Wrapper>
+        <Footer />
       </div>
   )}
 };

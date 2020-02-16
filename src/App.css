@@ -1,5 +1,12 @@
 @import url('<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">');
 
-body{
+html, body{
   font-family: 'Roboto Slab', serif;
+  height: 100%;
+}
+
+.container {
+  min-height:100%;
+  margin-bottom: 140px;
+
 }
