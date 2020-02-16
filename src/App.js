@@ -44,7 +44,7 @@ class App extends Component {
 
         <div class="col-3">
             <PokemonCard
-              onClick={this.savePoke}
+              onClick={() => this.savePoke(pokemon.name)}
               id={pokemon.id}
               key={pokemon.id}
               name={pokemon.name}
