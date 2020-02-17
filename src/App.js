@@ -31,12 +31,20 @@ class App extends Component {
       [array[i], array[j]] = [array[j], array[i]];
     }   
   }
+
+  resetGame = () => {
+    this.setState({
+                  score:0,
+                  gameOver: false,
+                  pokeChosen: []
+                })
+  }
+
   savePoke = pokeChar => {
 
     if(this.state.pokeChosen.includes(pokeChar)) {
-      console.log("should be zero")
         this.setState({gameOver: true})
-        this.setState({ score: 0})
+        // this.resetGame()
     } else {
       console.log(this.state.pokeChosen)
         this.setState({ pokeChosen: [...this.state.pokeChosen, pokeChar]})
@@ -58,7 +66,7 @@ class App extends Component {
       <Wrapper >
         <div class="row">
           <div class="col">
-            <Score score={this.state.score}/>
+            <Score gameStatus={this.state.gameOver} score={this.state.score}/>
           </div>
         </div>
       <div class="row">
@@ -66,6 +74,7 @@ class App extends Component {
 
         <div class="col-3">
             <PokemonCard
+              gameStatus={this.state.gameOver}
               onClick={() => this.savePoke(pokemon.name)}
               id={pokemon.id}
               key={pokemon.id}

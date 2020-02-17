@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-function PokemonCard({name, image, type, weakness, onClick}) {
+function PokemonCard({name, gameStatus, image, type, weakness, onClick}) {
     return (
-        <div  onClick={onClick}  className="card poke-card">
+        <div  onClick={onClick}  className={gameStatus ? "shakeCard card" :"card poke-card"}>
                 <div>
                     <img className= "pokemon-image card-img-top" src = {image} alt = {name} />
                 </div>    
