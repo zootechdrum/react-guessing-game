@@ -13,7 +13,8 @@ class App extends Component {
   state = {
     pokemonChar : pokemon,
     pokeChosen: [],
-    score: 0
+    score: 0,
+    gameOver: false
   };
 
   shuffle = array => {
@@ -31,7 +32,18 @@ class App extends Component {
     }   
   }
   savePoke = pokeChar => {
-    console.log(pokeChar)
+
+    if(this.state.pokeChosen.includes(pokeChar)) {
+      console.log("should be zero")
+        this.setState({gameOver: true})
+        this.setState({ score: 0})
+    } else {
+      console.log(this.state.pokeChosen)
+        this.setState({ pokeChosen: [...this.state.pokeChosen, pokeChar]})
+        this.setState({ score: this.state.score + 1})
+    }
+
+    //shuffle array of pokemon
     var mixArray = this.shuffle(pokemon)
     this.setState({pokemon: mixArray})
   };
