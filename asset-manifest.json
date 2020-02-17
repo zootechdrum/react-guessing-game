@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-guessing-game/static/css/main.bd716bd3.chunk.css",
+    "main.js": "/react-guessing-game/static/js/main.983315b9.chunk.js",
+    "main.js.map": "/react-guessing-game/static/js/main.983315b9.chunk.js.map",
+    "runtime-main.js": "/react-guessing-game/static/js/runtime-main.107174d4.js",
+    "runtime-main.js.map": "/react-guessing-game/static/js/runtime-main.107174d4.js.map",
+    "static/js/2.dcff481c.chunk.js": "/react-guessing-game/static/js/2.dcff481c.chunk.js",
+    "static/js/2.dcff481c.chunk.js.map": "/react-guessing-game/static/js/2.dcff481c.chunk.js.map",
+    "index.html": "/react-guessing-game/index.html",
+    "precache-manifest.a94226bdbcfe02a6c29d5a5655fec62f.js": "/react-guessing-game/precache-manifest.a94226bdbcfe02a6c29d5a5655fec62f.js",
+    "service-worker.js": "/react-guessing-game/service-worker.js",
+    "static/css/main.bd716bd3.chunk.css.map": "/react-guessing-game/static/css/main.bd716bd3.chunk.css.map",
+    "static/js/2.dcff481c.chunk.js.LICENSE.txt": "/react-guessing-game/static/js/2.dcff481c.chunk.js.LICENSE.txt",
+    "static/media/pokeball.png": "/react-guessing-game/static/media/pokeball.8e4eb169.png",
+    "static/media/pokemon-ban.png": "/react-guessing-game/static/media/pokemon-ban.e0133029.png",
+    "static/media/pokemon-logo-footer1.png": "/react-guessing-game/static/media/pokemon-logo-footer1.cabe89fc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.107174d4.js",
+    "static/js/2.dcff481c.chunk.js",
+    "static/css/main.bd716bd3.chunk.css",
+    "static/js/main.983315b9.chunk.js"
+  ]
+}
