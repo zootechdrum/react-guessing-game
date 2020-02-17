@@ -5,7 +5,7 @@ import Logo from "../../images/pokemon-logo-footer1.png"
 function Footer() {
     return (
         <footer>
-            <div className="footer">
+            <div className="footer text-center">
                 <img className="footer-logo" src={Logo} alt="pokeboll" />   
             </div>
 

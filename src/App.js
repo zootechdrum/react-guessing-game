@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Score from "./components/Score";
 import Jumbotron from "./components/Jumbotron";
 import Wrapper from "./components/Wrapper";
 import pokemon from "./pokemon.json";
@@ -11,7 +12,8 @@ import './App.css';
 class App extends Component {
   state = {
     pokemonChar : pokemon,
-    pokeChosen: []
+    pokeChosen: [],
+    score: 0
   };
 
   shuffle = array => {
@@ -28,8 +30,8 @@ class App extends Component {
       [array[i], array[j]] = [array[j], array[i]];
     }   
   }
-  savePoke = event => {
-    console.log(event)
+  savePoke = pokeChar => {
+    console.log(pokeChar)
     var mixArray = this.shuffle(pokemon)
     this.setState({pokemon: mixArray})
   };
@@ -42,6 +44,11 @@ class App extends Component {
       <Navbar />
       <Jumbotron />
       <Wrapper >
+        <div class="row">
+          <div class="col">
+            <Score score={this.state.score}/>
+          </div>
+        </div>
       <div class="row">
             {this.state.pokemonChar.map(pokemon => (
 
