@@ -38,18 +38,23 @@ class App extends Component {
                   gameOver: false,
                   pokeChosen: []
                 })
+                console.log(this.state)
   }
 
   savePoke = pokeChar => {
+    console.log(this.state.pokeChosen)
 
     if(this.state.pokeChosen.includes(pokeChar)) {
         this.setState({gameOver: true})
-        // this.resetGame()
+        window.scrollTo(0, 0);
     } else {
       console.log(this.state.pokeChosen)
         this.setState({ pokeChosen: [...this.state.pokeChosen, pokeChar]})
         this.setState({ score: this.state.score + 1})
     }
+    if(this.state.pokeChosen.length === 11){
+      window.scrollTo(0, 0);
+  }
 
     //shuffle array of pokemon
     var mixArray = this.shuffle(pokemon)
@@ -66,7 +71,7 @@ class App extends Component {
       <Wrapper >
         <div class="row">
           <div class="col">
-            <Score gameStatus={this.state.gameOver} score={this.state.score}/>
+            <Score gameStatus={this.state.gameOver} pokemonArray={this.state.pokeChosen} onClick={this.resetGame} score={this.state.score}/>
           </div>
         </div>
       <div class="row">

@@ -3,6 +3,7 @@
 html, body{
   font-family: 'Roboto Slab', serif;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .container {

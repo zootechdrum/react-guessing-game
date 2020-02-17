@@ -1,5 +1,19 @@
 .score-text{
     color: #000000;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.winMessage{
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: #ee90ee;
+    padding:15px;
+    border-radius: 5px;
+}
+
+.btn-win{
+    color: #fff;
+    background-color: #000000;
+    border-color:#ce08ec;
 }
