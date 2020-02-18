@@ -15,4 +15,7 @@ For this project, I created a memory game with React. This project required me t
 ### Screenshot of App
 ![Still pic of App](./readMeCont/screenshot.png)
 
+### Gif of working App
+![Gif of App](./readMeCont/gifOfApp.gif)
+
 
