@@ -13,7 +13,7 @@ For this project, I created a memory game with React. This project required me t
 5. W3 CDN
 
 ### Screenshot of App
-![Still pic of App](./readMeCont/screenshot.png)
+![Still pic of App](./readMeCont/screenShot.png)
 
 ### Gif of working App
 ![Gif of App](./readMeCont/gifOfApp.gif)
