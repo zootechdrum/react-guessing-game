@@ -42,8 +42,9 @@ class App extends Component {
   }
 
   savePoke = pokeChar => {
-    console.log(this.state.pokeChosen)
-
+    //Checks if the pokeCharechter has been chosen if it as
+    //Lose and scroll to the top
+    //Else save the pokemon and increase score by one
     if(this.state.pokeChosen.includes(pokeChar)) {
         this.setState({gameOver: true})
         window.scrollTo(0, 0);
@@ -52,6 +53,7 @@ class App extends Component {
         this.setState({ pokeChosen: [...this.state.pokeChosen, pokeChar]})
         this.setState({ score: this.state.score + 1})
     }
+    //If all charechters have been chosen the user won scroll to the top
     if(this.state.pokeChosen.length === 11){
       window.scrollTo(0, 0);
   }
